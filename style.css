@@ -1,39 +1,43 @@
-*{box-sizing: border-box;
+*{
+	box-sizing: border-box;
 	background-color: #777;
-	text-align:center;
+	text-align: center;
+	font-size: 18px;
+	font-family: Arial Helvetica  Helvetica sans-serif;
+
 }
 
 body{
-
+	width: 960px;
+	margin: 0 auto;
 }
 
 header{
 	
     padding: 20px;
     background-color: #ebebeb;
-    width: 960px;
-    font-family: Arial;
-    margin-left: 16%;
+    font-family: Neue;
+    margin-top: 1%;
 }
 
 nav{
-	
+	margin-top: 10px;
     padding: 20px;
     background-color: #ebebeb;
-    width: 960px;
-    margin-left: 16%;
-    margin-top: 10px;
     margin-bottom: 15px;
+    font-family: Neue;
 }
 
 footer{
 	
 	background-color: #ebebeb;
 	padding: 20px;
-	width: 960px;
+	margin-top: 36%;
+	text-align: start;
+	font-family: Neue;
 	clear: both;
-	margin-left: 16%;
-	
+	text-align: center;
+
 
 
 }
@@ -42,33 +46,54 @@ section{
 	 background-color: #ebebeb;
      width: 495px;
      float: left;
+     margin-right: 0%;
+     margin-bottom: 0%;
+     padding-top: 40px;
+     padding-bottom: 7px;
+     font-family: Neue;
+
+
 
 }
 
 aside{
 	background-color: #ebebeb;
 	float: right;
-	padding: 150px;
-	margin-right: 150px;
+	padding: 30px 200px 257px 200px;
+	margin-right: 0px;
+	font-family: Neue;
+	margin-bottom: 0%;
+
 
 }
 
 article{
-	background-color: #777;
-	width: 945px;
+	
+	width: 475px;
+	height: 220px;
+	background: #777;
+	margin: 10px;
+	padding-top: 10px;
+	padding-left:13px;
+	padding-right: 13px;
+	font-family: sans-serif;
 
 }
-
+  
 .clear{
 		
 }
 
 h1{
 	background-color: #ebebeb;
+	padding: 5%;
+	font-family: Helvetica;
 
 }
 
 
 p{
 	background-color: #ebebeb;
+	padding: 5%;
+
 }
